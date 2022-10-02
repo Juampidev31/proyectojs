@@ -54,7 +54,7 @@ function procesarCompra(e){
             enviado.width = '150';
 
         const serviceID = 'service_f30rhi9';
-        const templateID = 'template_c1vzpqg';
+        const templateID = 'template_x3o4coc';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {

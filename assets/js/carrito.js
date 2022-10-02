@@ -28,7 +28,7 @@ class Carrito{
             //console.log('El producto ya está agregado');
             Swal.fire({
                 icon: 'warning',
-                title: 'No tenemos stock suficiente, prueba con menos unidades',
+                title: 'Debido a la alta demanda de stock puede seleccionar una unidad por persona',
                 timer: 2500,
                 showConfirmButton: false
             })

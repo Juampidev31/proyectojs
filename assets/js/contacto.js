@@ -9,7 +9,7 @@ event.preventDefault();
 
 
 const serviceID = 'default_service';
-const templateID = 'template_c1vzpqg';
+const templateID = 'template_x3o4coc';
 
 emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
